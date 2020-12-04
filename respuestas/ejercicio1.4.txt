@@ -1,0 +1,25 @@
+daw1_a@1DAM-05 MINGW64 /d/Educa/daw1_a/Escritorio/examen-Alvarez-Fernandez/entornos1T (ALVAREZ-FERNANDEZ)
+$ git status
+On branch ALVAREZ-FERNANDEZ
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        respuestas/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+daw1_a@1DAM-05 MINGW64 /d/Educa/daw1_a/Escritorio/examen-Alvarez-Fernandez/entornos1T (ALVAREZ-FERNANDEZ)
+$ git log
+commit b79c7ba1a5c71fc30ef8de370fdd12c40e316a8a (HEAD -> ALVAREZ-FERNANDEZ, origin/main, origin/HEAD, main)
+Author: Carlos González Sánchez <carlosgs.iesquevedo@gmail.com>
+Date:   Fri Dec 4 11:11:30 2020 +0100
+
+    Update .gitignore
+
+    Ignorar ficheros de IntelliJ y MacOS
+
+commit 7b39baf748c6a994c95cdb9df0eba4b586319a14
+Author: Carlos González Sánchez <carlosgs.iesquevedo@gmail.com>
+Date:   Fri Dec 4 11:03:21 2020 +0100
+
+    Initial commit
+
