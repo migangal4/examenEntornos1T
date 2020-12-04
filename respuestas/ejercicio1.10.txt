@@ -1,0 +1,51 @@
+En el apartado 8 ya que lo hicimos cuando el head era el apartado 5 simplemente hicimos
+
+git tag ALVAREZ-FERNANDEZ-paso5
+
+En caso de haberlo hecho posteriormente tendriamos que haber buscado la referencia del commit del paso 5 con 
+
+git log
+
+Y hacer
+
+git tag ALVAREZ-FERNANDEZ-paso5 be302a3a7cd819374d2f5757f55c5be0d1250402
+
+donde be302a3a7cd819374d2f5757f55c5be0d1250402 es la referencia del commit del paso 5
+
+En el paso 9 hacemos
+
+git checkout main
+
+Para cambiar a la rama principal
+
+Y luego
+
+git merge ALVAREZ-FERNANDEZ
+
+para unir ambas ramas en la rama principal
+
+Lo que nos daria:
+
+daw1_a@1DAM-05 MINGW64 /d/Educa/daw1_a/Escritorio/examen-Alvarez-Fernandez/entornos1T (main)
+$ git merge ALVAREZ-FERNANDEZ
+Updating b79c7ba..1824394
+Fast-forward
+ respuestas/ejercicio1.4.txt | 25 +++++++++++++++++++++++++
+ respuestas/ejercicio1.6.txt |  7 +++++++
+ 2 files changed, 32 insertions(+)
+ create mode 100644 respuestas/ejercicio1.4.txt
+ create mode 100644 respuestas/ejercicio1.6.txt
+
+
+En el log nos daria:
+
+daw1_a@1DAM-05 MINGW64 /d/Educa/daw1_a/Escritorio/examen-Alvarez-Fernandez/entornos1T (main)
+$ git log --graph --oneline --decorate --all
+* 1824394 (HEAD -> main, ALVAREZ-FERNANDEZ) Se me olvido guardar el txt en el otro commit, guardado en este
+* cc18173 Añadida respuesta del ejercicio 1.6
+* be302a3 (tag: ALVAREZ-FERNANDEZ-paso5) Añadimos la respuesta del ejercicio 1.4.
+* b79c7ba (origin/main, origin/HEAD) Update .gitignore
+* 7b39baf Initial commit
+
+
+
