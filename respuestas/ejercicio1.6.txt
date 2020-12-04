@@ -1,0 +1,7 @@
+daw1_a@1DAM-05 MINGW64 /d/Educa/daw1_a/Escritorio/examen-Alvarez-Fernandez/entornos1T (ALVAREZ-FERNANDEZ)
+$ git log --graph --oneline --decorate --all
+* be302a3 (HEAD -> ALVAREZ-FERNANDEZ, tag: ALVAREZ-FERNANDEZ-paso5) Añadimos la respuesta del ejercicio 1.4.
+* b79c7ba (origin/main, origin/HEAD, main) Update .gitignore
+* 7b39baf Initial commit
+
+(Hemos añadido ya la tag del paso 8)
